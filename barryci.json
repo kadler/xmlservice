@@ -1,0 +1,4 @@
+{
+  "makefile": "Makefile.in",
+  "make_parameters": ["LIBRARY=KXMLSRV"]
+}
