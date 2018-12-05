@@ -1,4 +1,9 @@
 {
-  "makefile": "Makefile.in",
+  "pre_make": [
+    {
+      "command": "./configure",
+      "args": []
+    }
+  ],
   "make_parameters": ["LIBRARY=KXMLSRV"]
 }
