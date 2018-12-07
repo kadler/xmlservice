@@ -1,9 +1,12 @@
 {
-  "pre_make": [
+  "build": [
     {
       "command": "./configure",
       "args": []
+    },
+    {
+      "command": "gmake",
+      "args": ["BIN_LIB=KXMLSRV"]
     }
-  ],
-  "make_parameters": ["LIBRARY=KXMLSRV"]
+  ]
 }
